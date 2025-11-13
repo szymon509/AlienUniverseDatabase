@@ -1,0 +1,26 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="using:AlienUniverseDatabase.ViewModels"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+        x:Class="AlienUniverseDatabase.Views.MainWindow"
+        x:DataType="vm:MainWindowViewModel"
+        Icon="/Assets/avalonia-logo.ico"
+        Title="AlienUniverseDatabase"
+        Background="Orange">
+    <StackPanel Margin="10">
+        <TextBlock Text="Lista Filmów:" Margin="0,0,0,10"></TextBlock>
+    
+        <ListBox x:Name="MoviesListBox" Height="200" SelectionChanged="MoviesListBox_OnSelectionChanged">
+            
+        </ListBox>
+        <StackPanel Orientation="Horizontal" Margin="0,10,0,0" HorizontalAlignment="Center">
+            
+            <Button Content="Dodaj film" Margin="5"></Button>
+            <Button Content="Usuń film" Margin="5"></Button>
+        </StackPanel>
+        
+        
+    </StackPanel>
+</Window>
