@@ -13,6 +13,7 @@ namespace AlienUniverseDatabase.models
         public string Charakterystyka { get; set; }
         public string Los { get; set; }
         public string Ciekawostka { get; set; }
+        
     }
 
 }
