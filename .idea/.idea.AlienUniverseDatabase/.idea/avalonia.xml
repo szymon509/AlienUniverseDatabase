@@ -4,6 +4,7 @@
     <option name="projectPerEditor">
       <map>
         <entry key="AlienUniverseDatabase/App.axaml" value="AlienUniverseDatabase/AlienUniverseDatabase.csproj" />
+        <entry key="AlienUniverseDatabase/Views/CharactersView.axaml" value="AlienUniverseDatabase/AlienUniverseDatabase.csproj" />
         <entry key="AlienUniverseDatabase/Views/MainWindow.axaml" value="AlienUniverseDatabase/AlienUniverseDatabase.csproj" />
       </map>
     </option>
